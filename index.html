@@ -35,12 +35,30 @@
 
  	
 	<body>
-
 		<script>
 			var name = prompt("Anat nagan mo?");
-			alert("I love you, "+name+"!");
+			var message;
+			var normalMessage = "Hi, "+name+"! welcome to my website" ;
+			var dotaPlayer = name+", Tara dota ta! HAHAHAHA"
 
+			if(name.charAt(0)==("c") || name.charAt(0)==("c").toUpperCase())  {
+					message ="Hi, pwede ba kitang ligawan?";
+			}
 
+			else if (name.charAt(0)=="l" || name.charAt(0)=="L") {
+				message = dotaPlayer;
+			}
+
+			else if (name.charAt(0)=="b" || name.charAt(0)=="B") {
+				message = dotaPlayer;
+			}
+
+			else {
+				message = normalMessage;
+			}
+
+			alert(message);
+			
 		</script>
 		<div class="banner">
 
