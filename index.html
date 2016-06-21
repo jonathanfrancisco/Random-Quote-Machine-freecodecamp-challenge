@@ -1,127 +1,193 @@
 <!DOCTYPE html>
 
-<html lang="en-PH">
+<html lang="en">
 	<head>
 		<meta charset="utf-8">
+		<title>Jonathan | Full-Stack Developer</title>
 		<link rel="stylesheet" href="css/normalize.css">
-		<link href='https://fonts.googleapis.com/css?family=Changa+One|Titillium+Web:400,40	italic,700,600' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="css/main-style.css">
-		<link rel="stylesheet" href="css/responsive.css">
+		<link href='https://fonts.googleapis.com/css?family=Oswald:400,700,300|Anton|Righteous' rel='stylesheet' type='text/css'>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"> </meta>
-		<title>Jonathan | Designer & Developer</title>
+		<link rel="stylesheet" href="css/main.css">
 	</head>
 
+	<body>
 
-	
-	<header class="header-container clearfix"> 
-		<div class="ewan">
-			<div class="logo-info">
-				<h1> Jonathan Francisco </h1>
-				<img src="images/blue.jpg">
-				<h3> Web Designer | Software Developer</h3>
-			</div>
-			<div class="nav-bar">
-				<ul>
-					<li class="selected"> <a href="index.html">HOME</a> </li>
-					<li> <a href="portfolio.html">PORTFOLIO</a> </li>
-					<li> <a href="about.html">ABOUT</a> </li>
-					<li> <a href="contact.html">CONTACT</a> </li>
+		<header> 
+			<img src="img/bottom.png" class="bottom-eyes">
+			<img src="img/top2.png" class="top-eyes">
+
+			<div class="nav-header" >
+				<img src="img/logo.jpg">
+				<ul> 
+					<li> <a href="#works">WORKS</a> </li>
+					<li> <a href="#about">ABOUT ME</a> </li>
+					<li> <a href="#contact">CONTACT</a> </li>
 				</ul>
 			</div>
-		</div>
-	</header>
 
-
-
- 	
-	<body>
-		<script>
-			var name = prompt("Anat nagan mo?");
-			var message;
-			var normalMessage = "Hi, "+name+"! welcome to my website" ;
-			var dotaPlayer = name+", Tara dota ta! HAHAHAHA"
-
-			if(name.charAt(0)==("c") || name.charAt(0)==("c").toUpperCase())  {
-					message ="Hi, pwede ba kitang ligawan?";
-			}
-
-			else if (name.charAt(0)=="l" || name.charAt(0)=="L") {
-				message = dotaPlayer;
-			}
-
-			else if (name.charAt(0)=="b" || name.charAt(0)=="B") {
-				message = dotaPlayer;
-			}
-
-			else {
-				message = normalMessage;
-			}
-
-			alert(message);
-			
-		</script>
-		<div class="banner">
-
-			<img src="images/profilepicture.jpg" style="height: 190px; width: 190px; border-radius: 100%; border: 1px solid black">
-			<h1> Jonathan Buted Francisco </h1>
-			<h3> An aspiring Full-Stack Developer. </h3>
-		</div>
-		<div class="wrapper">
-			<div class="home-container">
-
-				<div class="wst divide">
-					<h2>Want someone to develop you a Website or an Application? </h2>
-					
-					<p>Forget that! You can make a website on your own, just open up your web browser and type "bootstrap template/themes" into your favorite search engine, like Yahoo! or Google, and you're on your way! There are hundreds of templates to choose from, but go ahead and pick any template you want on google, edit a few lines, and you're on your way! No one will notice! And for the app, well you can't google it, actually you can ,but it would be much better if I do it. So, you gotta contact me and I'll make one just for you.</p>
-				</div>
-
-				<h2 style="margin-bottom: 0">Take a look of what I can do!</h2>
-				<img src="images/bluethinner.jpg">
-
-				<div class="website divide clearfix">  
-					<div>
-						<div class="website-logo">
-							<img src="images/website.png">
-							<h3>Website</h3>
-						</div>
-						<div class="website-info">
-							<p>Wait, what?! I thought you told us to forget it and just go ahead use a bootstrap template!. Well, I'm just kidding. I can make gorgeous responsive websites, better than those bootstrap templates/themes.</p>
-						</div>
-					</div>
-				</div>
-
-				<div class="application divide clearfix">
-					<div class=application-logo>
-						<img src="images/application.png">
-						<h3>Application</h3>
-					</div>
-					<div class="application-info">
-						<p>Need a cool Application that can send messages anonymously to everyone? Yes!, anyone! even your crush, so what are you waiting for? Well, you're in the right place. I can make one just for you, so contact me!</p>
-					</div>
-				</div>
-
-				 <div class="music divide clearfix"> 
-				 		<div class="music-logo">
-	            			<img src="images/music.png">
-	            			<h3>Play Guitar</h3>
-	            		</div>
-	            		<div class="music-info">
-	            			<p>Need someone to play cool songs in your Wedding? Oh, you thought making website and  application is all I can do? Well, you're in the right place again, because I can make music too!, so don't hesitate to contact me now!</p>
-	            		</div>
-	            </div>
-
-
-
-
-
+			<div class="intro" >
+				<h1>Hi there, I am JOnathan</h1>
+				<hr> </hr>
+				<h3><span style="font-size: 1.5em">i</span> turn bizarre <span>imaginations</span> into <span>reality</span>.</h3>
 			</div>
 
+		</header>
 
 
-		</body>
-	</div>
-
-	<footer class="main-footer" style="font-size: .75em;background-color: rgba(0, 0, 0, .1); padding: 1.5em; color: black;margin-top: 10em"> &copy; 2016 Jonathan Francisco. All rights reserved.</footer>
 
 
+		<div id="works" class="clearfix">
+
+	  		  <div class="hovereffect figure">
+		        	<img class="img-responsive" src="img/background.jpg" alt="">
+		            <div class="overlay">
+		                <h2>Double Exposure Effect</h2>
+						<p> 
+							<a href="#" class="hide">SEE MORE</a>
+						</p> 
+		            </div>
+	  		 </div>
+
+	  		  <div class="hovereffect figure">
+		        	<img class="img-responsive" src="img/background.jpg" alt="">
+		            <div class="overlay">
+		                <h2>Double Exposure Effect</h2>
+						<p> 
+							<a href="#" class="hide">SEE MORE</a>
+						</p> 
+		            </div>
+	  		 </div>
+
+	  		  <div class="hovereffect figure">
+		        	<img class="img-responsive" src="img/background.jpg" alt="">
+		            <div class="overlay">
+		                <h2> Double Exposure Effect </h2>
+						<p> 
+							<a href="#" class="hide">SEE MORE</a>
+						</p> 
+		            </div>
+	  		 </div>
+	  	
+
+
+	  		 <div class="hovereffect figure">
+		        	<img class="img-responsive" src="img/background.jpg" alt="">
+		            <div class="overlay">
+		                <h2>Double Exposure Effect</h2>
+						<p> 
+							<a href="#" class="hide">SEE MORE</a>
+						</p> 
+		            </div>
+	  		 </div>
+
+	  		  <div class="hovereffect figure">
+		        	<img class="img-responsive" src="img/background.jpg" alt="">
+		            <div class="overlay">
+		                <h2>Double Exposure Effect</h2>
+						<p> 
+							<a href="#" class="hide">SEE MORE</a>
+						</p> 
+		            </div>
+	  		 </div>
+
+	  		  <div class="hovereffect figure">
+		        	<img class="img-responsive" src="img/background.jpg" alt="">
+		            <div class="overlay">
+		                <h2>Double Exposure Effect</h2>
+						<p> 
+							<a href="#" class="hide">SEE MORE</a>
+						</p> 
+		            </div>
+	  		 </div>
+
+	  		  <div class="hovereffect figure">
+		        	<img class="img-responsive" src="img/background.jpg" alt="">
+		            <div class="overlay">
+		                <h2>Double Exposure Effect</h2>
+						<p> 
+							<a href="#" class="hide">SEE MORE</a>
+						</p> 
+		            </div>
+	  		 </div>
+
+	  		  <div class="hovereffect figure">
+		        	<img class="img-responsive" src="img/background.jpg" alt="">
+		            <div class="overlay">
+		                <h2> Double Exposure Effect </h2>
+						<p> 
+							<a href="#" class="hide">SEE MORE</a>
+						</p> 
+		            </div>
+	  		 </div>
+	  	
+
+
+	  		 <div class="hovereffect figure">
+		        	<img class="img-responsive" src="img/background.jpg" alt="">
+		            <div class="overlay">
+		                <h2>Double Exposure Effect</h2>
+						<p> 
+							<a href="#" class="hide">SEE MORE</a>
+						</p> 
+		            </div>
+	  		 </div>
+	  		 
+	  		  <div class="hovereffect figure">
+		        	<img class="img-responsive" src="img/background.jpg" alt="">
+		            <div class="overlay">
+		                <h2>Double Exposure Effect</h2>
+						<p> 
+							<a href="#" class="hide">SEE MORE</a>
+						</p> 
+		            </div>
+	  		 </div>
+
+	  		  <div class="hovereffect figure">
+		        	<img class="img-responsive" src="img/background.jpg" alt="">
+		            <div class="overlay">
+		                <h2>Double Exposure Effect</h2>
+						<p> 
+							<a href="#" class="hide">SEE MORE</a>
+						</p> 
+		            </div>
+	  		 </div>
+	  		 
+	  		  <div class="hovereffect figure">
+		        	<img class="img-responsive" src="img/background.jpg" alt="">
+		            <div class="overlay">
+		                <h2>Double Exposure Effect</h2>
+						<p> 
+							<a href="#" class="hide">SEE MORE</a>
+						</p> 
+		            </div>
+	  		 </div>
+	  	
+	  	
+
+	  	
+	  	
+
+
+
+
+		</div>
+
+
+
+
+
+
+
+
+		<div id="about"> 
+			<h1> HEY THERE! </h1>
+		</div>
+
+
+
+
+
+
+
+	</body>
 </html>
