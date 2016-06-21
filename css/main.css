@@ -1,9 +1,6 @@
-﻿/******************
+/******************
 	BASE STYLE
 *******************/
-* {
-	box-sizing: border-box;
-}
 
 html {
 	color: #222;
@@ -233,6 +230,4 @@ transition-delay:.2s
 
 
 
-.hovereffect::after {
-	content: "- Remember this";
-}
+
