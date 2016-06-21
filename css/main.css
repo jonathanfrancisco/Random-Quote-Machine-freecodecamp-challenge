@@ -33,7 +33,6 @@ h1, h2, h3 {
 }
 
 header {
-	height: 100vh;
 	position: relative;
 }
 
@@ -97,21 +96,15 @@ header {
 
 .intro {
     text-align: center;
-    margin-left: auto;
     margin-right: auto;
-    margin-top: 2.25em;
-	position: absolute;
-	top: 20%;
-	left: 0;
-    	right: 0;
+    margin-left: auto;
+    margin-bottom: 5em;
+    margin-top: 5em;
 }
 
-
-
 .intro h1 {
-	font-size: 2em;
+	font-size: 2.75em;
 	margin: 0 .25em;
-	margin-top: .75em
 }
 
 .intro h3 {
