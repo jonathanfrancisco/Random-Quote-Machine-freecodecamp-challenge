@@ -17,3 +17,4 @@ $(".contact").click(function() {
     }, 2000);
 });
 
+

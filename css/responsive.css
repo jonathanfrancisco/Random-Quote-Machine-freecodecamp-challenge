@@ -1,0 +1,45 @@
+@media screen and (min-width: 768px) {
+	.hovereffect {
+		width: 50%;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.hovereffect {
+		width: 33.3333%;
+	}
+
+	.hovereffect h3 {
+		display: none;
+	}
+
+	.intro h1 {
+		font-size: 4em;
+	}
+}
+
+
+@media screen and (min-width: 1366px) {
+	#works {
+		width: 75%;
+	}
+	.intro h1 {
+		font-size: 6em;
+	}
+ }
+
+ @media screen and (min-width: 1600px) {
+
+ 	#works {
+ 		width: 70%;
+ 	}
+ 	.hovereffect {
+ 		width: 25%;
+ 	}
+
+ 	.intro h1 {
+ 		font-size: 7.25em;
+ 	}
+
+ 	}
+ }
