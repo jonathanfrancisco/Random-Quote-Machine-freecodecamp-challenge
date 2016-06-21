@@ -16,6 +16,9 @@
 	.intro h1 {
 		font-size: 4em;
 	}
+	.nav-header ul {
+		padding-top: 5em;
+	}
 }
 
 
