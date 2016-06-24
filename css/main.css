@@ -237,18 +237,23 @@ transition-delay:.2s
 **************************************************************/
 
 #about {
-	width: 100%;
 	margin: 0 auto;
 	text-align: center;
+	margin-top: 10em;
+	padding-top: 2em;
 }
 
-.meinfo{
-	width: 60%;
-	padding-left: 5%;
-	text-align: left;
+.mobile-jonathan {
+	max-width: 250px;
+	border-radius: 100%;
 }
 
-.meinfo span {
+#about p {
+	text-align: justify;
+	padding: 1.2em;
+}
+
+#about span {
 	float: left;
 	font-size: 3em;
 	padding-right: .25em;
@@ -257,17 +262,13 @@ transition-delay:.2s
 	background-color: #E74C3C;
 }
 
-.aboutme {
-	width: 40%;
+.jonathan {
+	display: none;
 }
 
-.meinfo,.aboutme {
-	float: left;
-}
 
-.aboutme img {
-	width: 320px;
 
-}
+
+
 
 

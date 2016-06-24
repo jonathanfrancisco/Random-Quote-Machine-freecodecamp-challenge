@@ -24,6 +24,33 @@
 	.intro h1 {
 		font-size: 3.25em;
 	}
+	
+	#about {
+		width: 80%;
+		margin: 0 auto;
+		margin-top: 6em;
+		padding-bottom: 3em;
+	}
+
+	.mobile-jonathan {
+		display: none;
+	}
+
+
+	.jonathan {
+		width: 320px;
+		display: block;
+		float: right;
+		margin-left: .5em;
+		margin-bottom: .5em;
+	}
+
+
+	#about {
+		text-decoration: underline;
+	}
+
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -41,16 +68,39 @@
 	.nav-header ul {
 		padding-top: 5em;
 	}
+
+	#about {
+		width: 70%;
+	}
+
+	#about p {
+		text-align: left;
+	}
+
+
 }
 
 
 @media screen and (min-width: 1366px) {
 	#works {
-		width: 60%;
+		width: 5 q0%;
 	}
 	.intro h1 {
 		font-size: 6em;
 	}
+
+
+
+	#about p {
+		font-size: 1.3em;
+	}
+
+
+	.jonathan {
+		width: 400px;
+	}
+
+
  }
 
  @media screen and (min-width: 1600px) {
@@ -66,5 +116,8 @@
  		font-size: 7.25em;
  	}
 
+ 	#about p {
+ 		font-size: 1.5em;
  	}
+ 	
  }
