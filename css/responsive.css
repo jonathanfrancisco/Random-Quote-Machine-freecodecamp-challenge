@@ -29,7 +29,7 @@
 		width: 80%;
 		margin: 0 auto;
 		margin-top: 6em;
-		padding-bottom: 3em;
+		padding-top: 8%;
 	}
 
 	.mobile-jonathan {
@@ -69,6 +69,10 @@
 
 	#about p {
 		text-align: left;
+	}
+
+	.title-div {
+		font-size: 2em;
 	}
 
 

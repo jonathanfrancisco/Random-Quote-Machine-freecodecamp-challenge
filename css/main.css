@@ -1,6 +1,8 @@
 ﻿/******************
 	BASE STYLE
 *******************/
+
+
 * {
 	box-sizing: border-box;
 }
@@ -241,11 +243,14 @@ transition-delay:.2s
 	text-align: center;
 	margin-top: 10em;
 	padding-top: 2em;
+	height: 100vh;
 }
 
 .mobile-jonathan {
 	max-width: 250px;
 	border-radius: 100%;
+	display: block;
+	margin: 0 auto;
 }
 
 #about p {
@@ -265,6 +270,33 @@ transition-delay:.2s
 .jonathan {
 	display: none;
 }
+
+
+
+.title-div {
+	background-color: #E74C3C;
+	padding: .2em;
+	display: inline-block;
+	font-size: 2.75em;
+	margin-top: 0;
+}
+
+
+
+#contact {
+	width: 70%;
+	margin: 0 auto;
+	margin-bottom: 5em;
+}
+
+#contact{
+	text-align: center;
+}
+
+.through-message {
+	text-align: left;
+}
+
 
 
 
