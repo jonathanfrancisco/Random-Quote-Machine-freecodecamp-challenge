@@ -20,10 +20,7 @@ $(".pagpindotan").click(function(){
 
 
                 $(".pakshet").fadeOut("slow", function(){
-
-  $(".pakshet").text(quotes[random]).fadeIn("slow")    ;
-
-
+       $(".pakshet").text(quotes[random]).fadeIn("slow");
    });
 
 
