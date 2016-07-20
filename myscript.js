@@ -1,6 +1,6 @@
 
 
-var patama = ["Ang totoong kaibigan ay yung tatarantaduhin ka nang harapan at pupurihin ka habang naka-talikod",
+var quote = ["Ang totoong kaibigan ay yung tatarantaduhin ka nang harapan at pupurihin ka habang naka-talikod",
 "ANA KADI?","PAK GANERN!", 
 "CGE ICLICK MO PAY TA PAK GANERN",
  "I hate two faced people. It's so hard to decide which face to slap first.", 
@@ -17,33 +17,17 @@ var patama = ["Ang totoong kaibigan ay yung tatarantaduhin ka nang harapan at pu
 
 console.log(patama[0]);
 
-
-
 $(".pagpindotan").click(function(){
 
         var random = Math.floor(Math.random()*patama.length);
 
 
-       
-            
-
                 $(".pakshet").fadeOut("slow", function(){
 
-  $(".pakshet").text(patama[random]).fadeIn("slow")    ;
+  $(".pakshet").text(quote[random]).fadeIn("slow")    ;
 
 
-
-});
-
-
-
-
-
-
-
-
-
-
+   });
 
 
 });
