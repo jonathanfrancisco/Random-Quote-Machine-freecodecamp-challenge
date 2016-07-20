@@ -1,6 +1,6 @@
 
 
-var quote = ["Ang totoong kaibigan ay yung tatarantaduhin ka nang harapan at pupurihin ka habang naka-talikod",
+var quotes = ["Ang totoong kaibigan ay yung tatarantaduhin ka nang harapan at pupurihin ka habang naka-talikod",
 "ANA KADI?","PAK GANERN!", 
 "CGE ICLICK MO PAY TA PAK GANERN",
  "I hate two faced people. It's so hard to decide which face to slap first.", 
@@ -12,19 +12,16 @@ var quote = ["Ang totoong kaibigan ay yung tatarantaduhin ka nang harapan at pup
  "Whatever you give to life it gives you back. Do not hate anybody. The hatred which comes out from you will someday comeback to you. Love others and Love will comeback to you.", 
  "There are two kinds of people in the world: those who divide everybody into two kinds of people and those who don’t.", "Don't mix between my personaity and my attitude because my personality is ME and my attitude depends on YOU",
  "Whatever you give to life it gives you back. Do not hate anybody. The hatred which comes out from you will someday comeback to you. Love others and Love will comeback to you.",
- "It is during our failures that we discover our true desire for success"];
-
-
-console.log(patama[0]);
+ "It is during our failures that we discover our true desire for success","Sa panahon ngayon TANGHALI na lng ang tapat.",];
 
 $(".pagpindotan").click(function(){
 
-        var random = Math.floor(Math.random()*patama.length);
+        var random = Math.floor(Math.random()*quotes.length);
 
 
                 $(".pakshet").fadeOut("slow", function(){
 
-  $(".pakshet").text(quote[random]).fadeIn("slow")    ;
+  $(".pakshet").text(quotes[random]).fadeIn("slow")    ;
 
 
    });
