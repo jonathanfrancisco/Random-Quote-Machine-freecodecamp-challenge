@@ -1,0 +1,17 @@
+@media screen and (min-width: 768px) {
+	
+	.img-with-caption {
+		max-width: 90%;
+		margin: 0 auto;
+	}
+
+	.wrapper p {
+		text-align: left;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.wrapper {
+		width: 60%;
+	}
+}
