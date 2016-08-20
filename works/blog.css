@@ -1,0 +1,40 @@
+body {
+	width: 90%;
+	margin: 0 auto;
+	border: 25px solid #e74c3c;
+}
+
+h2 {
+	font-family: 'Baloo Paaji';
+	font-size: 2.5em;
+	margin: 0;
+
+}
+
+h3, p {
+	font-family: 'Source Sans Pro';
+	font-size: 1.25em;
+}
+
+h3 {
+	color: #2980b9;
+	letter-spacing: 3px;
+}
+div {
+	padding: 0 2em;
+	margin-bottom: 1.5em;
+}
+
+
+div p:nth-of-type(1) {	
+	padding-left: .3em;
+	border-left: 5px solid #e74c3c;
+}
+
+@media screen and (min-width: 1024px) {
+	body{
+		width: 60%;
+		margin: 0 auto;
+	}
+}
+
