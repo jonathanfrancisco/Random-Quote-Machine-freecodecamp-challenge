@@ -12,7 +12,7 @@ h2, a, p {
 }
 
 a {
-	font-family: 'Merienda';
+	font-family: 'Space Mono';
 }
 
 h1 {
@@ -24,7 +24,7 @@ h2 {
 }
 
 .blackground {
-	background: rgba(0,0,0, 0.1);
+	background: rgba(0,0,0, 0.1		);
 }
 
 
@@ -43,6 +43,7 @@ header {
 header h1 {
 	font-size: 2.5em;
 	line-height: 1em;
+	font-weight: 900;
 }
 
 
@@ -52,12 +53,14 @@ header h1 {
 }
 
 .nav-bar li a{
+	font-size: 0.85em;
 	transition-property: color;
 	transition-duration: 1s;
 }
 .nav-bar li a:hover {
 	color: black
 }
+
 
 .introduction {
 	margin-top: 7em
@@ -66,9 +69,9 @@ header h1 {
 .line {
 	margin: 0 auto;
 	width: 150px;
-	height: 1px;
-	background-color: black;
-	border: 1px solid black;
+	height: 7px;
+	background-color: #2196F3;
+	border: 1px solid #2196F3;
 
 }
 
@@ -96,6 +99,7 @@ header h1 {
 
 .services div {
 	padding: 3em 1em 1em 1em;
+	border: -1px solid black;
 }
 
 
@@ -104,12 +108,8 @@ header h1 {
 *************************/
 
 #portfolio {
+	margin-top: 150px;
 	text-align: center;
-}
-
-#portfolio h1 {
-	text-decoration: underline;
-	font-family: 'Merienda';
 }
 
 .portfolio-gallery img 	{
@@ -121,3 +121,79 @@ header h1 {
 	padding: 1em;
 	margin-bottom: 1em;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
