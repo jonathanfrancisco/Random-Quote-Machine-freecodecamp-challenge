@@ -28,6 +28,9 @@ h2 {
 }
 
 
+p {
+	letter-spacing: 2px;
+}
 
 
 
@@ -72,10 +75,14 @@ header h1 {
 	height: 7px;
 	background-color: #2196F3;
 	border: 1px solid #2196F3;
+	text-align: center;
+	margin-bottom: 1.25em;
 
 }
 
-
+.services, #portfolio, #about, #contact {
+	text-align: center;
+}
 
 
 /****************************
@@ -83,7 +90,6 @@ header h1 {
 ****************************/
 .services {
 	margin-top: 8.5em;
-	text-align: center;
 }
 .services h1 {
 	font-size: 1.45em;
@@ -109,7 +115,7 @@ header h1 {
 
 #portfolio {
 	margin-top: 150px;
-	text-align: center;
+	margin-bottom: 150px;
 }
 
 .portfolio-gallery img 	{
@@ -118,17 +124,42 @@ header h1 {
 }
 
 .portfolio-gallery li {
-	padding: 1em;
+	padding: 0 1.75em;
 	margin-bottom: 1em;
 }
 
+/****************************
+		ABOUT ME
+****************************/
+
+#about {
+	padding: 1.5em;
+	margin-bottom: 2em;
+}
+	
+#jonathan {
+	max-width: 800px;
+	width: 100%;
+	padding-top: 1em;
+}
+
+.aboutme h2{
+	font-size: 1.5em;
+	text-align: left;
+}
 
 
+/**************************
+	CONTACT ME
+**************************/
 
+#about p, #contact p {
+	text-align: justify;
+}
 
-
-
-
+#contact {
+	padding: 1.5em;
+}
 
 
 
