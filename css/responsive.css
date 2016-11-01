@@ -1,0 +1,130 @@
+@media (max-width: 1440px) {
+
+	#about {
+		width: 95%;
+	}
+}
+
+@media (max-width: 1366px) {
+	#services {
+		width: 90%;
+	}
+}
+
+@media (max-width: 1024px) {
+	.navigation {
+		width:80%;
+	}
+
+	#portfolio ul li {
+		width: 33.33%;
+	}
+
+
+	.aboutme div {
+		display: block;
+		width: 90%;
+		margin: 0 auto;
+		padding: 0 20px;
+		text-align: justify;
+		font-size: 1.5em;
+	}
+
+
+
+
+}
+
+@media (max-width: 810px) {
+	#services {
+		width: 85%;
+	}
+
+	#services div {
+	float: none;
+	width: 100%;
+	margin-bottom: 5em;
+	}
+
+	#header {
+		height: 400px;
+	}
+
+	.introinfo {
+		margin-top: 0;
+	}
+
+	#portfolio ul li {
+		width: 50%;
+	}
+	.aboutme div {
+		float: none;
+		width: 90%;
+		margin: 0 auto;
+		padding: 20px;
+		text-align: justify;
+		font-size: 1.5em;
+	}
+
+	.col-2,.col-3 {
+		display: none;
+	}
+
+	.navigation {
+		width: 95%;
+		margin: 0 auto;
+	}
+	.navigation ul li {
+		display: inline-block;
+		margin-right: 0;
+		font-size: .8em;
+	}
+
+	.navigation h1 {
+		color:#3498db;
+		display: inline-block;
+		margin: 0;
+		font-size: 1.75em;
+	}
+
+	.introinfo h1 {
+		font-size: 3em;
+	}
+
+	.introinfo h2 {
+		font-size: 1.5em;
+		
+	}
+
+	.slickline {
+		width: 200px;
+	}
+
+
+
+
+
+
+
+
+}
+
+
+@media (max-width: 480px) {
+	#services div img {
+		max-width: 100px;
+	}
+
+
+	#portfolio ul li {
+		width: 100%;
+	
+	}
+
+	#services {
+		width: 100%;
+	}
+
+
+
+}

@@ -1,0 +1,353 @@
+
+/*************************
+		BASE STYLE
+**************************/
+
+a {
+	color: white;
+	font-family: 'Dosis';
+	text-decoration: none;
+	font-size: 1.2em;
+}
+
+h1 {
+	font-family: 'Righteous';
+}
+
+h2 {
+	font-family: 'Dosis';
+}
+
+p {
+	font-family: 'Dosis';
+}
+
+
+.clearfix {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+li {
+	list-style: none;
+}
+
+.slickline {
+	width: 500px;
+	 height: 3px; 
+	 margin: 0 auto;
+	 background-color: white;
+	 margin:-top: 0;
+}
+
+/*****************************
+		HEADER
+*****************************/
+
+#header {
+
+	color: white;
+	height: 640px;
+	background: url('../images/spark.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+
+.introinfo {
+	text-align: center;
+	margin-top: 250px;
+
+}
+
+
+.introinfo h1 {
+	font-size: 4em;
+	text-shadow: 5px 5px 5px black;
+	margin-bottom: .2em;
+}
+
+.introinfo h2 {
+	font-size: 1.75em;
+	/**text-shadow: 10px 10px 8px black;**/
+}
+
+
+.navigation-header {
+	height: 50px;
+	padding-top: 1em;
+	background-color: rgba(34,39,40,0.3);
+	border-bottom: 1px solid  #1E90FF;
+}
+
+.navigation {
+	margin: 0 auto;
+	width: 55%;
+}
+
+.navigation h1 {
+	display: inline-block;
+	font-size: 1.75em;
+	margin: 0;
+}
+.navigation ul {
+	margin: 0.25em 0 0 0;
+	padding: 0;
+	float: right;
+}
+
+.navigation ul li {
+	display: inline-block;
+	margin-right: 1.2em;
+}
+
+.navigation ul li a {
+	padding: .75em;
+	font-size: 1.3em;
+	transition: color 0.5s;
+}
+
+.navigation ul li a:hover {
+	color: rgba(0,0,0, 0.85);
+	color: #3498db;
+}
+
+/*************************
+		SERVICES
+	
+*************************/
+
+
+
+#services {
+	width: 85%;
+	margin: -5em auto 5em ;
+	text-align: center;
+}
+
+#services div {
+	color: black;
+	width: 33.3%;
+	float: left;
+}
+
+#services div p {
+	color: #5c5c5c;
+	font-family: 'Dosis';
+	font-size: 1.25em;
+	padding: 0 1.75em;
+}
+
+#services div img {
+	max-width: 150px;
+	padding: 20px;
+}
+
+
+/*******************
+	PORTFOLIO
+*******************/
+
+#portfolio {
+	text-align: center;
+	margin: 5em 0;
+
+}
+
+#portfolio a {
+	color: black;
+}
+
+
+#portfolio img {
+	width: 100%;
+}
+
+#portfolio ul {
+
+	text-align: center;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#portfolio ul li {
+	width: 25%;
+	/**width: 42.49%; **/
+	float: left;
+	position: relative;
+}
+
+.description {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	background-color: rgba(52,74,255, 0.75);
+	filter: alpha(opacity=75);
+
+}
+
+.description-content {
+	color: white;
+	padding: 10px;
+	margin: 0px;
+	text-align: left;
+}
+
+/*****************
+	ABOUT
+******************/
+
+#about {
+	width: 70%;
+	margin: 7em auto 3em;
+
+}
+
+#about img {
+	display: block;
+	margin: 0 auto;
+	border-radius: 100%;
+	max-width: 250px;
+}
+
+.aboutme div {
+	width: 28.25%;
+	float: left;
+	padding: 2.5%;
+	text-align: justify;
+	font-size: 1.5em;
+}
+
+.aboutme div p {
+	font-family: 'Open Sans Condensed';
+	letter-spacing: 1.2px;
+}
+
+.IAM {
+	font-size: 2em;
+	font-family: 'Oswald';	
+
+}
+
+
+
+/***************************
+		CONTACT
+***************************/
+
+#main-contact {
+	height: 280px;
+	background: url('../images/footer.png');
+	background-size: cover;
+	width: 100%;
+	text-align: center;
+}
+
+#main-contact p {
+	color: white;
+	background-color: rgba(0,0,0,0.3);
+	font-size: 1.25em;
+	margin: 0;
+	padding: 1em 0;
+}
+
+.contact {
+	width: 80%;
+	margin: 0 auto;
+	padding-top: ;
+
+}
+
+.social-icons ul {
+	padding: 0;
+}
+
+.social-icons img {
+	max-width: 25px;
+}
+
+.social-icons ul li {
+	display: inline-block;
+	margin: 20px;
+	background-color: rgba(0,0,0, 0.5);
+	border-radius: 100%;
+	padding: 8px;
+	-webkit-transition: background-color 1s; /* Safari */
+    transition: background-color s;
+}
+
+.social-icons ul li a {
+	padding: 10px 8px 8px 8px;
+
+}
+
+.facebook:hover {
+	background-color: rgb(59,89,152);
+}
+
+.twitter:hover {
+	background-color: rgb(29,161,242);
+}
+
+.instagram:hover {
+	background-color: #ff3232;
+}
+
+/********************************
+			CONTACT FORM
+*******************************/
+
+
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+form { max-width:420px; margin:50px auto; }
+
+.feedback-input {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #fff;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #3498db; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#2980b9;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#3498db; }
+
+
+
+
