@@ -33,7 +33,7 @@ function generateRandomColor() {
 	var G = Math.floor(Math.random()*255)+1;
 	var B = Math.floor(Math.random()*255)+1;
 	var rgb = "rgb("+R+", "+G+", "+B+")";
-	var image ="https://source.unsplash.com/random";
+	var image ="//source.unsplash.com/random";
 	$("body").css("backgroundImage","url('"+image+"')");
   $("body").css("backgroundSize","cover");
 	$("#quote-container").css("color", rgb);
@@ -44,7 +44,7 @@ function generateRandomColor() {
 
 function generateClassicQuotes() { // // gets random quote in formastic API
 
-      $.getJSON( "https://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=jsonp&jsonp=?", function(data) {
+      $.getJSON("//api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=jsonp&jsonp=?", function(data) {
         displayQuote(data);
   });
 
@@ -113,7 +113,7 @@ $(hugotWordsButton).on("click", function() {  // Generates random anime quote on
 
 $(tweetButton).on("click", function(){ // Opens a new window on twitter and inserts quote
 
-  window.open("https://twitter.com/intent/tweet?text="+$("#quote").text()+"                          "+$("#author").text());
+  window.open("//twitter.com/intent/tweet?text="+$("#quote").text()+"                          "+$("#author").text());
 
 });
 
