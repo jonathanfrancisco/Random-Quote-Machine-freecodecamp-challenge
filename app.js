@@ -38,6 +38,7 @@ function generateRandomColor() {
   $("body").css("backgroundSize","cover");
 	$("#quote-container").css("color", rgb);
   $("button").css("backgroundColor",rgb);
+  $("button").css("color","white");
 
 }
 
