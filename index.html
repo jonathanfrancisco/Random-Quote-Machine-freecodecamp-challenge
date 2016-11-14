@@ -3,12 +3,53 @@
 
 <html>
 	<head>
-
-		<title>Soon!</title>
-		<link href="https://fonts.googleapis.com/css?family=Itim" rel="stylesheet"> 
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Random quote generator</title>
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400" rel="stylesheet"> 
+		<link rel="stylesheet" href="style.css">
+		<script
+			  src="https://code.jquery.com/jquery-3.1.1.min.js"
+			  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+			  crossorigin="anonymous"></script>
 	</head>
 
+
 	<body>
-		<h1 style="max-width: 500px; margin: 200px auto; text-align: center; font-family: 'Itim';">Website is under renovation! And is moving to a new hosting and domain. I won't be using github as a domain/hosting anymore. Thanks!</h1>
+
+		<div class="clearfix" id="quote-container">
+
+
+			<p id="quote"> </p>
+
+
+			<div id="divauthor">
+				<span id="author"> </span>
+			</div>
+
+
+	
+			
+		</div>	
+
+
+		<div id="buttonsdiv">
+
+			<button id="classicQuote">Classic Quote</button>
+			<button id="hugotWords">Hugot Words</button>
+			<button id="tweet">Tweet it!</button>
+
+		</div>
+
+
+
+		<div id="footer">
+			<p>Images from <a href="https://unsplash.com/">Unsplash</a>, Classic quotes from Formastic API. and Hugot Words, Yours truly, Jonathan.</p>
+		</div>
+
+
+		<script src="app.js"> </script>
+
 	</body>
+
 </html>
