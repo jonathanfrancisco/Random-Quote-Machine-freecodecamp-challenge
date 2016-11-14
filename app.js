@@ -44,7 +44,7 @@ function generateRandomColor() {
 
 function generateClassicQuotes() { // // gets random quote in formastic API
 
-      $.getJSON( "http://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=jsonp&jsonp=?", function(data) {
+      $.getJSON( "//api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=jsonp&jsonp=?", function(data) {
         displayQuote(data);
   });
 
