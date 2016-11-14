@@ -33,7 +33,7 @@ function generateRandomColor() {
 	var G = Math.floor(Math.random()*255)+1;
 	var B = Math.floor(Math.random()*255)+1;
 	var rgb = "rgb("+R+", "+G+", "+B+")";
-	var image ="//source.unsplash.com/random";
+	var image ="https://source.unsplash.com/random";
 	$("body").css("backgroundImage","url('"+image+"')");
   $("body").css("backgroundSize","cover");
 	$("#quote-container").css("color", rgb);
@@ -45,7 +45,7 @@ function generateRandomColor() {
 
 function generateClassicQuotes() { // // gets random quote in formastic API
 
-      $.getJSON("//api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=jsonp&jsonp=?", function(data) {
+      $.getJSON("https://quotes.rest/qod.json?category=inspire", function(data) {
         displayQuote(data);
   });
 
@@ -63,7 +63,7 @@ function generateHugotWords () {
 }
 
 
-function displayQuote(quote) { // displays quote
+function displayQuote(quoteData) { // displays quote
 
   $("#quote").fadeOut("slow", function(){
 
@@ -72,7 +72,7 @@ function displayQuote(quote) { // displays quote
 
      if(isHugot) {
 
-        $(this).text(quote).fadeIn("slow");
+        $(this).text(quoteData).fadeIn("slow");
         $("#author").text("- JO").fadeIn("slow");
        
       }
@@ -80,8 +80,15 @@ function displayQuote(quote) { // displays quote
 
       else {
 
-       $(this).text(quote.quoteText).fadeIn("slow");
-       $("#author").text("- "+quote.quoteAuthor).fadeIn("slow");
+       $(this).text(quoteData.quote).fadeIn("slow");
+       $("#author").text("- "+quoteData.quoteAuthor).fadeIn("slow");
+
+       var image = quoteData.background;
+       $("body").css("backgroundImage",image);
+
+
+
+
        
       }
       generateRandomColor();
@@ -114,7 +121,7 @@ $(hugotWordsButton).on("click", function() {  // Generates random anime quote on
 
 $(tweetButton).on("click", function(){ // Opens a new window on twitter and inserts quote
 
-  window.open("//twitter.com/intent/tweet?text="+$("#quote").text()+"                          "+$("#author").text());
+  window.open("https://twitter.com/intent/tweet?text="+$("#quote").text()+"                          "+$("#author").text());
 
 });
 
