@@ -45,7 +45,7 @@ function generateRandomColor() {
 
 function generateClassicQuotes() { // // gets random quote in formastic API
 
-      $.getJSON("https://quotes.rest/qod.json?category=inspire", function(data) {
+      $.getJSON("https://quotes.rest/qod.jsonp?category=inspire", function(data) {
         displayQuote(data);
   });
 
