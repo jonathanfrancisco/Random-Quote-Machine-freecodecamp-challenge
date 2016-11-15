@@ -45,7 +45,7 @@ function generateRandomColor() {
 
 function generateClassicQuotes() { // // gets random quote in formastic API
 
-      $.getJSON("https://quotes.rest/qod.jsonp?category=inspire", function(data) {
+      $.getJSON("//api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=jsonp&jsonp=?", function(data) {
         displayQuote(data);
   });
 
@@ -80,7 +80,7 @@ function displayQuote(quoteData) { // displays quote
 
       else {
 
-       $(this).text(quoteData.quote).fadeIn("slow");
+       $(this).text(quoteData.quoteText).fadeIn("slow");
        $("#author").text("- "+quoteData.quoteAuthor).fadeIn("slow");
 
        var image = quoteData.background;
