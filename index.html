@@ -1,52 +1,33 @@
-<!DOCTYPE html>
-
-
 <html>
 	<head>
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Hugot Shits!</title>
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400" rel="stylesheet"> 
-		<link rel="stylesheet" href="style.css">
-		<script src="jquery.js"> </script>
+		<title>API</title>
+		<link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+		<link rel="stylesheet" href="main.css">
 	</head>
-
 
 	<body>
 
-		<div class="clearfix" id="quote-container">
-
-
-			<p id="quote"> </p>
-
-
-			<div id="divauthor">
-				<span id="author"> </span>
-			</div>
-
-
-	
-			
-		</div>	
-
-
-		<div id="buttonsdiv">
-
-			<button id="classicQuote">Classic Quote</button>
-			<button id="hugotWords">Hugot Words</button>
-			<button id="tweet">Tweet it!</button>
-
+		<div class="quote-container">
+			<img src="images/SMILE.jpg">
+			<p class="quote"> </p>
+			<a class="twitter-share-button"
+			  href="https://twitter.com/intent/tweet" target="_blank">
+			  <img src="images/tweet.png">
+			</a>
 		</div>
 
+		<p class="note-text">Press "spacebar" for a quote</p>
 
 
-		<div id="footer">
-			<p>Images from Unsplash, Classic quotes from Formastic API. and Hugot Words, Yours truly, Jonathan.</p>
-		</div>
+		<script
+			src="https://code.jquery.com/jquery-3.2.1.min.js"
+			integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+			crossorigin="anonymous">
+		</script>
 
-
-		<script src="app.js"> </script>
+  		<script src="app.js">  </script>
 
 	</body>
-
 </html>

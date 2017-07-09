@@ -1,0 +1,47 @@
+
+body {
+	transition: background-color 1.8s ease;
+}
+
+.quote-container {
+	text-align: center;
+	max-width: 700px;
+	margin: 8em auto 0;
+	padding: 3em;
+	background: #fff;
+	border-radius: 2.5%;
+	transition: height 1s ease-out;
+}
+
+.quote-container img {
+	max-width: 100px;
+}
+
+.quote {
+	font-size: 1.7em;
+	font-family: 'Inconsolata';
+	margin: 0;
+}
+
+.quote p {
+	text-align: right;
+	font-style: italic;
+	font-size: .85em;
+}
+
+
+
+.big-ass-double-quotes {
+	font-size: 1.8em
+}
+.note-text {
+	text-align: center;
+	font-size: 2em;
+	color: #fff;
+	font-family: 'Work Sans';
+	margin: 50px;
+}
+
+.twitter-share-button img {
+	max-width: 30px;
+}
